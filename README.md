@@ -3,7 +3,7 @@
  <h1>miso-plot</h1>
  
  <p align="center">
- <img src="docs/miso_logo.png" alt="miso-plot logo" width="300"/>
+ <img src="https://github.com/Aleksandra795/miso-plot/raw/main/docs/miso_logo.png" alt="miso-plot logo" width="300"/>
  </p>
  <p align="center">
  <em>A lightweight visualization tool for clustered high-density data</em>
@@ -72,7 +72,7 @@
  plt.show()
   </code></pre>
 <p align="center">
-   <img src="docs/exemplary_data_scatterplot.png" alt="Example scatter plot" width="500"/>
+   <img src="https://github.com/Aleksandra795/miso-plot/raw/main/docs/exemplary_data_scatterplot.png" alt="Example scatter plot" width="500"/>
  </p>
 
 Because often the clusters overlap substantially, identifying their true centers is challenging.
@@ -91,7 +91,7 @@ miso-plot facilitates this process by visualizing each cluster’s density distr
  </code></pre>
  
  <p align="center">
-   <img src="docs/exemplary_data_miso_05.png" alt="Example miso plot" width="500"/>
+   <img src="https://github.com/Aleksandra795/miso-plot/raw/main/docs/exemplary_data_miso_05.png" alt="Example miso plot" width="500"/>
  </p>
  
  The usefulness of miso-plot is best illustrated using real experimental data.
@@ -99,7 +99,7 @@ miso-plot facilitates this process by visualizing each cluster’s density distr
  miso-plot clearly reveals the dominant spatial organization of these subtypes on the UMAP projection while suppressing outliers and low-density noise, making the overall cluster structure easier to interpret.
 
 <p align="center">
-   <img src="docs/cytof_example.png" alt="Example miso plot" width="800"/>
+   <img src="https://github.com/Aleksandra795/miso-plot/raw/main/docs/cytof_example.png" alt="Example miso plot" width="800"/>
  </p>
 
  <hr/>
@@ -131,7 +131,7 @@ Its default value is 0.5, corresponding to the median density isoline, but it ca
 Common choices include 0.25 (top 75% of the densest regions) and 0.75 (top 25%), depending on the desired level of detail.
  
  <p align="center">
-   <img src="docs/m_parameter.png" alt="m parameter" width="1000"/>
+   <img src="https://github.com/Aleksandra795/miso-plot/raw/main/docs/m_parameter.png" alt="m parameter" width="1000"/>
  </p>
 
  <hr/>
@@ -142,7 +142,7 @@ Common choices include 0.25 (top 75% of the densest regions) and 0.75 (top 25%),
  Designed for cluster visualization (24 clusters) with high perceptual separation.</p>
  
  <p align="center">
-   <img src="docs/miso24_palette.png" alt="miso24 palette" width="800"/>
+   <img src="https://github.com/Aleksandra795/miso-plot/raw/main/docs/miso24_palette.png" alt="miso24 palette" width="800"/>
  </p>
 
  <p>You may also pass:</p>
