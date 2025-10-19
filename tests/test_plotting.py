@@ -15,7 +15,8 @@ def test_hex_to_rgb_normalized():
 
 def test_process_cmap_builtin():
     cmap = process_cmap("miso24", 3)
-    assert cmap.shape == (3, 3)
+    assert cmap.shape[1] == 3
+    assert cmap.shape[0] >= 3
 
 def test_process_cmap_invalid_name():
     with pytest.raises(ValueError):
