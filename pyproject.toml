@@ -37,5 +37,5 @@ dev = ["pytest", "pytest-cov"]
 where = ["src"]
 
 [project.urls]
-"Homepage" = "https://github.com/aleksandrasuwalska/miso-plot"
-"Bug Tracker" = "https://github.com/aleksandrasuwalska/miso-plot/issues"
+"Homepage" = "https://github.com/Aleksandra795/miso-plot"
+"Bug Tracker" = "https://github.com/Aleksandra795/miso-plot/issues"

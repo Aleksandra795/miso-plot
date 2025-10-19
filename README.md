@@ -1,16 +1,18 @@
  <div align="center">
  
  <h1>miso-plot</h1>
- <em>A lightweight visualization tool for clustered high-density data</em>
  
- <!-- Optional: insert your logo below -->
+ <p align="center">
  <img src="docs/miso_logo.png" alt="miso-plot logo" width="300"/>
- 
+ </p>
+ <p align="center">
+ <em>A lightweight visualization tool for clustered high-density data</em>
+ </p>
  <p>
  <a href="https://pypi.org/project/miso-plot/"><img src="https://img.shields.io/pypi/v/miso-plot.svg?color=blue" alt="PyPI"></a>
  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
  <img src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" alt="Python 3.8+">
- <a href="https://github.com/USERNAME/miso-plot/actions"><img src="https://github.com/USERNAME/miso-plot/actions/workflows/python-tests.yml/badge.svg" alt="Build"></a>
+ <a href="https://github.com/Aleksandra795/miso-plot/actions"><img src="https://github.com/Aleksandra795/miso-plot/actions/workflows/python-tests.yml/badge.svg" alt="Build"></a>
  </p>
  
  </div>
