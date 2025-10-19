@@ -52,24 +52,24 @@
  <h2>Quick Example</h2>
  
  <pre><code class="language-python">
- import numpy as np
- import matplotlib.pyplot as plt
- from sklearn.datasets import make_blobs
- from miso_plot import miso_plot
- 
- # Generate synthetic clustered data
- X, labels = make_blobs(n_samples=50000, centers=6, n_features=2, random_state=42)
- Y = X[:, 1]
- X = X[:, 0]
- 
- # Plot simple scatterplot of the data
- plt.figure()
- plt.scatter(X, Y, s=10, c=labels, alpha=0.5, cmap='tab10')
- plt.xlabel("x")
- plt.ylabel("y")
- plt.title("simple scatter plot")
- plt.grid(True)
- plt.show()
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.datasets import make_blobs
+from miso_plot import miso_plot
+
+# Generate synthetic clustered data
+X, labels = make_blobs(n_samples=50000, centers=6, n_features=2, random_state=42)
+Y = X[:, 1]
+X = X[:, 0]
+
+# Plot simple scatterplot of the data
+plt.figure()
+plt.scatter(X, Y, s=10, c=labels, alpha=0.5, cmap='tab10')
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("simple scatter plot")
+plt.grid(True)
+plt.show()
   </code></pre>
 <p align="center">
    <img src="https://github.com/Aleksandra795/miso-plot/raw/main/docs/exemplary_data_scatterplot.png" alt="Example scatter plot" width="500"/>
@@ -79,15 +79,15 @@ Because often the clusters overlap substantially, identifying their true centers
 miso-plot facilitates this process by visualizing each cluster’s density distribution, highlighting regions representing the top <i>m</i> fraction of its overall density.
 
 <pre><code class="language-python">
- # Show cluster density centers with miso-plot
- fig, ax = plt.subplots()
- plt.scatter(X, Y, s=10, c='#D6D6D6', alpha=0.5)
- miso_plot(X, Y, labels, cmap="tab10", thr=0.5, ax=ax)  
- plt.xlabel("x")
- plt.ylabel("y")
- plt.title("mISO plot, m=0.5")
- plt.grid(True)
- plt.show()
+# Show cluster density centers with miso-plot
+fig, ax = plt.subplots()
+plt.scatter(X, Y, s=10, c='#D6D6D6', alpha=0.5)
+miso_plot(X, Y, labels, cmap="tab10", m=0.5, ax=ax)  
+plt.xlabel("x")
+plt.ylabel("y")
+plt.title("mISO plot, m=0.5")
+plt.grid(True)
+plt.show()
  </code></pre>
  
  <p align="center">
