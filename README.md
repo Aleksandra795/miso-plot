@@ -44,7 +44,7 @@
  <p>Or install the latest development version directly from GitHub:</p>
  
  <pre><code class="language-bash">
- pip install git+https://github.com/USERNAME/miso-plot.git
+ pip install git+https://github.com/Aleksandra795/miso-plot.git
  </code></pre>
  
  <hr/>
