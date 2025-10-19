@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miso-plot"
+version = "0.1.0"
+description = "Simple visualization tool for clustered high-density data."
+authors = [
+    {name="Aleksandra Suwalska", email="aleksandra.suwalska@polsl.pl"}
+]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "visualization", 
+    "clustering", 
+    "data science", 
+    "umap", "big data", 
+    "matplotlib"
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pandas"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+"Homepage" = "https://github.com/aleksandrasuwalska/miso-plot"
+"Bug Tracker" = "https://github.com/aleksandrasuwalska/miso-plot/issues"
